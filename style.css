@@ -3,15 +3,16 @@
 ;root{
     --cor-de-fundo: #1E1E1E;
     --cinza: #808080;
-    --verde-lemon: #32cd32;
-    --vermelho-sangue: #8b0000;
+    --verde-lemon: #236423;
+    --vermelho-sangue: #ff0000;
     --r-g-b: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
+    --azul-bebe: #add8e6;
 }
 
 body{
-    background-color: var(--vermelho-sangue);
-    color: var(--verde-lemon);
+    background-color: #add8e6;
+    color: var(--texto-fundo);
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -30,6 +31,7 @@ body{
     text-align: left;
     width: 100%;
     font-size: 32px;
+    color: #ff0000 ;
 }
 
 .titulo-principal span{
